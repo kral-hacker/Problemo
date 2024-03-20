@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-sf-pro-text: "SF Pro Text";
+    --font-sf-pro-display: "SF Pro Display";
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-base-5: 16.5px;
+    --font-size-mid-5: 17.5px;
+  
+    /* Colors */
+    --color-tomato: #fe6d4e;
+    --system-materials-sm-l-thick: rgba(250, 250, 250, 0.93);
+    --label-colors-lc-l-secondary: rgba(60, 60, 67, 0.6);
+  
+    /* Paddings */
+    --padding-5xl: 24px;
+  
+    /* Border radiuses */
+    --br-3xs-7: 9.7px;
+  }

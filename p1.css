@@ -1,0 +1,399 @@
+.desktop-1-child,
+.desktop-1-item,
+.frame-child {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  display: none;
+}
+.frame-child {
+  height: 124px;
+  width: 356px;
+  background: linear-gradient(
+    104.39deg,
+    #f6ebeb,
+    #eafefb 0.01%,
+    #ecfbf8 54.58%,
+    #eff6f5 59.3%
+  );
+  max-width: 100%;
+}
+.frame-item {
+  height: 87px;
+  width: 61px;
+  position: relative;
+  object-fit: cover;
+  min-height: 87px;
+  z-index: 3;
+}
+.rectangle-parent,
+.roblemo {
+  display: flex;
+  align-items: flex-end;
+}
+.roblemo {
+  height: 85px;
+  position: relative;
+  z-index: 3;
+}
+.rectangle-parent {
+  height: 124px;
+  background: linear-gradient(
+    104.39deg,
+    #f6ebeb,
+    #eafefb 0.01%,
+    #ecfbf8 54.58%,
+    #eff6f5 59.3%
+  );
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 12px 13px;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.frame-inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  z-index: 3;
+  margin-top: -3px;
+}
+.frame-parent {
+  height: 1024px;
+  width: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-div {
+  height: 124px;
+  width: 1084px;
+  position: relative;
+  background-color: var(--color-tomato);
+  display: none;
+  max-width: 100%;
+}
+.magnifyingglass1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 48.61px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.magnifyingglass {
+  height: 27.2px;
+  width: 27.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.placeholder-label {
+  height: 22px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base-5);
+  letter-spacing: -0.4px;
+  line-height: 21.39px;
+  font-family: var(--font-sf-pro-text);
+  text-align: left;
+  display: inline-block;
+}
+.content {
+  width: 292px;
+  height: 35px;
+  border-radius: 9.72px;
+  background-color: var(--system-materials-sm-l-thick);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7.777777671813965px;
+  box-sizing: border-box;
+}
+.frame-child1,
+.searchbar {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.searchbar {
+  width: 572px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child1 {
+  background-color: var(--color-tomato);
+  width: 520px;
+  z-index: 2;
+}
+.magnifyingglass3 {
+  flex: 1;
+  position: relative;
+  line-height: 27.2px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.magnifyingglass2 {
+  width: 27.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.placeholder-label1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.4px;
+  line-height: 22px;
+}
+.content1,
+.placeholder-label-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.placeholder-label-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 2.6000000000000227px 0 0;
+  text-align: left;
+  font-size: var(--font-size-base-5);
+  font-family: var(--font-sf-pro-text);
+}
+.content1 {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  border-radius: 9.72px;
+  background-color: var(--system-materials-sm-l-thick);
+  width: 531px;
+  flex-direction: row;
+  padding: 12.899999999999975px 7.800000000000011px 12.900000000000034px;
+  z-index: 3;
+}
+.searchbar-parent {
+  height: 62px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.interface-question-mark-circ {
+  width: 49px;
+  height: 49px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.interface-question-mark-circ-wrapper {
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.general-edit {
+  width: 42.5px;
+  height: 42.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-group,
+.frame-wrapper,
+.general-edit-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.general-edit-wrapper {
+  height: 52.5px;
+  flex-direction: column;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+.frame-group,
+.frame-wrapper {
+  max-width: 100%;
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 25px;
+}
+.frame-wrapper {
+  width: 693.5px;
+  flex-direction: column;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.communication-profile-circle,
+.general-notification {
+  height: 65.1px;
+  width: 72px;
+  /* margin-top: 30px; */
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bi-person-fill {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: -12px;  
+  z-index: 2;
+}
+.communication-profile-circle-wrapper {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 10px 0;
+  box-sizing: border-box;
+}
+.general-notification-parent {
+  height: 65.1px;
+  margin-top: 10px;
+  margin-right: 20px;
+  justify-content: flex-start;
+}
+.desktop-1,
+.general-notification-parent,
+.rectangle-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangle-group {
+  flex: 1;
+  background-color: var(--color-tomato);
+  justify-content: space-between;
+  padding: 35px 41px 20.899999999999977px 48px;
+  box-sizing: border-box;
+  min-width: 705px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-mid-5);
+  color: var(--label-colors-lc-l-secondary);
+  font-family: var(--font-sf-pro-display);
+}
+.write{
+  position: absolute;
+  left: 20px;
+  top: 135px;
+  /* text-align: left; */
+  text-align: justify;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+}
+.btt button{
+  font-size: 20px;
+  margin-left: 25px;
+  
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #dee2e8; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer;
+}
+.bi-arrow-up-square{
+  width: 24px; /* Icon width */
+  height: 24px; /* Icon height */
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.bi-arrow-down-square{
+  width: 24px; /* Icon width */
+  height: 24px; /* Icon height */
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0px 10px;
+}
+.btt button span {
+  color: black; /* Change text color to black */
+}
+.com button{
+  font-size: 20px;
+  margin-left: 230px;
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #858a91; 
+  color: rgb(24, 23, 23); /* Text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer;
+}
+.bi-chat-dots{
+  width: 24px; /* Icon width */
+  height: 24px; /* Icon height */
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: left;
+  font-size: 55.7px;
+  color: #cd5353;
+  font-family: var(--font-inter);
+}
+
+
+
+@media screen and (max-width: 1050px) {
+  .rectangle-group {
+    padding-left: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .roblemo {
+    font-size: 45px;
+  }
+  .rectangle-group {
+    min-width: 100%;
+  }
+}
+/* @media screen and (max-width: 450px); */
+/* Add hover effect to Bootstrap icons */
+.bi:hover {
+  transform: scale(1.1); /* Scale the icon on hover */
+  transition: transform 0.1s ease-in-out; /* Add a smooth transition */
+}
+
+.bi:active {
+  background-color: rgb(239, 91, 11); /* Change the background color when clicked */
+}
